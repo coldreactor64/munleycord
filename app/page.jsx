@@ -1,8 +1,11 @@
 import Image from 'next/image'
 import Link from "next/link";
+import Script from "next/script";
 
 export default function Home() {
   return (
+      <>
+      <Script src={'/oneko.js'} />
       <main className="flex flex-col items-center justify-center min-h-screen bg-black">
         <div className="relative w-full max-w-2xl">
           <Image
@@ -17,5 +20,6 @@ export default function Home() {
             Join Munleycord
         </Link>
       </main>
+      </>
   )
 }
