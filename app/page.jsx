@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center min-h-screen bg-black">
         <div className="relative w-full max-w-2xl">
           <Image
-              src="/munley.webp"
+              src="/munley.png"
               alt="Munley Image"
               layout="responsive"
               width={1200}
