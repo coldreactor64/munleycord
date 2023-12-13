@@ -19,6 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>{children}</body>
       <Script
+        id="my-script"
           strategy="beforeInteractive"
       >
         {`console.log('Hello world!');`}
