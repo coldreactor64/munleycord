@@ -22,7 +22,7 @@ export default function RootLayout({
         id="my-script"
           strategy="beforeInteractive"
       >
-        {`console.log('Hello world!');`}
+        {`alert("Welcome to Seam!");`}
       </Script>
     </html>
   )
